@@ -1,0 +1,13 @@
+#dependencies
+/.vscode
+/results
+/frames
+
+#protected files
+comando.txt
+my.db
+/cuda/opencv-test.exe
+/cuda/opencv-test.exp
+/cuda/opencv-test.lib
+/cuda/1.png
+/cuda/image.jpg
