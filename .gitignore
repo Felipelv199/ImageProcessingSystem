@@ -4,10 +4,10 @@
 /frames
 
 #protected files
-comando.txt
-my.db
 stress_test.py
 video_utils.py
+comando.txt
+my.db
 /cuda/opencv-test.exe
 /cuda/opencv-test.exp
 /cuda/opencv-test.lib

@@ -34,7 +34,8 @@ def push_images(frames_path, workload_id, filter_name, token):
     frames = glob.glob('{}/*.png'.format(frames_path))
 
     data = {'workload-id': workload_id, 'filter': filter_name}
-    headers = {'Authorization': 'Bearer {}'.format(token), 'workload-id': '{}&filter={}'.format(workload_id, filter_name)}
+    headers = {'Authorization': 'Bearer {}'.format(
+        token), 'workload-id': '{}&filter={}'.format(workload_id, filter_name)}
     endpoint_url = '{}/{}'.format(BASE_API_ENDPOINT, FILTER_ENDPOINT)
 
     for count in range(0, len(frames)):
